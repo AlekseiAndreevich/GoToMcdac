@@ -1,0 +1,22 @@
+Our console program has no special application
+
+you launch it in the console and you can move the green sharp
+HOW?
+we create a list of lists
+make two variables x and y
+make a loop:
+inside the loop
+ two variables are responsible for the location of the player
+ the location is changed by arrows
+
+Наша консольная программа не имеет особого применения
+
+запускаешь в консоли и можешь передвигать зелёную решоточку
+
+КАК?
+мы создали список списков
+сделали две переменные х и у
+сделали цикл:
+	в нутри цикла
+	две переменные отвечают за расположение игрока
+	расположение меняется стеролочками
