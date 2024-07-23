@@ -1,4 +1,5 @@
-from ColorFunctions import PColorIN
+from ColorFunctions import *
+
 #import sys, termios, atexit
 #from select import select
 
@@ -47,15 +48,18 @@ from ColorFunctions import PColorIN
 
 
 GameGraund = [['#','#','#'], ['#','#','#'], ['#','#','#']]
-print(len(GameGraund))
 a, b = len(GameGraund)//2, len(GameGraund)//2 
-print(f'{a=} {b=}')
-while True:
-    for i in range(len(GameGraund)):
-        for j in range(len(GameGraund[i])):
-            if i == a and j == b:   
-                print(PColorIN(GameGraund[a][b]),end=' ')
-            else :
-                print(GameGraund[i][j], end= ' ') 
 
-        print()
+print(f'{a=} {b=}')
+#while True:
+for i in range(len(GameGraund)):
+    for j in range(len(GameGraund[i])):
+        if i == a and j == b:   
+            print(PColorIN(GameGraund[a][b]),end=' ')
+        else :
+            print(GameGraund[i][j], end= ' ') 
+    print()
+input()
+DeleteFail()
+input()
+
